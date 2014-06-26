@@ -1,4 +1,4 @@
 JMXr
 ====
 
-JMX based live host monitoring for crucial system attributes with notifications.
+JMXr is a Java-JMX based live host monitoring tool with email notifications for monitoring crucial system attributes.
