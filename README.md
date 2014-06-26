@@ -27,5 +27,6 @@ Installation
 
 Usage
 =====
-* Run start-monitor.sh& to start monitoring and for sending email notifications. 
-* Run start-server.sh& to start the web frontend, which you can access at [http://localhost:9945](http://localhost:9945)
+* Install all dependencies and cd into the installed directory
+* Run the command **start-monitor.sh&** to start monitoring and for sending email notifications. 
+* Run the command **start-server.sh&** to start the web frontend, which you can access at [http://localhost:9945](http://localhost:9945)
