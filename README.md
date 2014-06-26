@@ -14,7 +14,7 @@ Features
 ========
 *	Any number of users can monitor real time, without increasing thread count in the host server.
 * View servers attributes of multiple hosts in a single webview.
-* No need to install Server agents for monitoring (New Relic). 
+* No need to install **server agents** for monitoring. 
 * Sends email notifications
 * Automatically reconnects to host server when they are restarted. 
 
