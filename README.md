@@ -15,7 +15,7 @@ Installation
 * Copy compiled_package/jmxr.zip to a suitable path in your server and extract it.
 * Update hosts.properties with JMX url to the hosts you want to monitor.
 * Update email.properties with email addresses you want the notifications to be sent.
-* Make suitable changes to the following files according to your paths:
+* Make suitable changes to the following files according to your installation:
   * start-monitor.sh
   * start-server.sh
   * stop-monitor.sh
