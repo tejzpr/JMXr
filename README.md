@@ -22,3 +22,7 @@ Installation
   * stop-server.sh
 * run start-monitor.sh and start-server.sh
 * Assocoated process ID's are stored in pid.txt and pid-server.txt
+
+Usage
+=====
+The start-monitor.sh will start the monitoring and send email notifications. The webview requires the start-server.sh to be started, once it is run you can access the web frontent at [http://localhost:9945](http://localhost:9945)
