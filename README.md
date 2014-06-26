@@ -10,6 +10,15 @@ Requirements
 * Python 2.7 
 * Redis 
 
+Features
+========
+*	Any number of users can monitor real time, without increasing thread count in the host server.
+* View servers attributes of multiple hosts in a single webview.
+* No need to install Server agents for monitoring (New Relic). 
+* Sends email notifications
+* Automatically reconnects to host server when they are restarted. 
+
+
 Installation
 ============
 * Make sure you have installed all the dependencies mentioned in the [DEPENDENCIES](https://github.com/tejzp/JMXr/blob/master/DEPENDENCIES) file
