@@ -4,4 +4,4 @@ Tornado v3.2.2 (Python)
 Redis 2.8.12 or greater
 Redis libraries for python (redis 2.10.1, Python) [pip install redis]
 ConfigParser (Python) [pip install configparser]
-json (Python) pip install json
+json (Python) [pip install json]
