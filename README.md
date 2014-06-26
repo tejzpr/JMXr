@@ -13,7 +13,7 @@ Requirements
 Installation
 ============
 * Make sure you have installed all the dependencies mentioned in the [DEPENDENCIES](https://github.com/tejzp/JMXr/blob/master/DEPENDENCIES) file
-* Copy [compiled_package/jmxr.zip](https://github.com/tejzp/JMXr/blob/master/compiled_package/jmxr-1.0.0.zip) to a suitable path in your server and extract it.
+* Copy [compiled_package/jmxr-1.0.0.zip](https://github.com/tejzp/JMXr/raw/master/compiled_package/jmxr-1.0.0.zip) to a suitable path in your server and extract it.
 * Update hosts.properties with JMX url to the hosts you want to monitor.
 * Update email.properties with email addresses you want the notifications to be sent.
 * Make suitable changes to the following files according to your installation:
@@ -23,7 +23,9 @@ Installation
   * stop-server.sh
 * run start-monitor.sh and start-server.sh
 * Assocoated process ID's are stored in pid.txt and pid-server.txt
+* The current packaged version i.e v1.0.0 was compiled using JDK 1.7, if you need this software to work with a lower JRE please pull the source and recompile. A pom-java5.xml is included with proper dependencies for Java 5.
 
 Usage
 =====
-The start-monitor.sh will start the monitoring and send email notifications. The webview requires the start-server.sh to be started, once it is run you can access the web frontent at [http://localhost:9945](http://localhost:9945)
+* Run start-monitor.sh& to start monitoring and for sending email notifications. 
+* Run start-server.sh& to start the web frontend, which you can access at [http://localhost:9945](http://localhost:9945)
