@@ -12,6 +12,7 @@ Requirements
 
 Installation
 ============
+* Make sure you have installed all the dependencies mentioned in the [DEPENDENCIES](https://github.com/tejzp/JMXr/blob/master/DEPENDENCIES) file
 * Copy compiled_package/jmxr.zip to a suitable path in your server and extract it.
 * Update hosts.properties with JMX url to the hosts you want to monitor.
 * Update email.properties with email addresses you want the notifications to be sent.
