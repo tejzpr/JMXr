@@ -5,7 +5,6 @@ JMXr is a JMX RMI based live host monitoring tool with email notifications for m
 
 Requirements
 ============
-* Linux or Windows based OS
 * JDK v 1.5 or above
 * Python 2.7 
 * Redis 
